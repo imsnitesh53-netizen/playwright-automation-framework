@@ -1,0 +1,17 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scalable Playwright TypeScript automation framework for UI and API testing.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
